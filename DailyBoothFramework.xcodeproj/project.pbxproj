@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA89711388D5840033BCCB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA89701388D5840033BCCB /* Cocoa.framework */; };
+		CEDA897B1388D5840033BCCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDA89791388D5840033BCCB /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDA896D1388D5840033BCCB /* DailyBoothFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DailyBoothFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA89701388D5840033BCCB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEDA89731388D5840033BCCB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CEDA89741388D5840033BCCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEDA89751388D5840033BCCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDA89781388D5840033BCCB /* DailyBoothFramework-Info.plist */ = {isa = PBXFileReference; path = "DailyBoothFramework-Info.plist"; sourceTree = "<group>"; };
+		CEDA897A1388D5840033BCCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDA897C1388D5840033BCCB /* DailyBoothFramework-Prefix.pch */ = {isa = PBXFileReference; path = "DailyBoothFramework-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA89691388D5840033BCCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA89711388D5840033BCCB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA89611388D5840033BCCB = {
+			isa = PBXGroup;
+			children = (
+				CEDA89761388D5840033BCCB /* DailyBoothFramework */,
+				CEDA896F1388D5840033BCCB /* Frameworks */,
+				CEDA896E1388D5840033BCCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA896E1388D5840033BCCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA896D1388D5840033BCCB /* DailyBoothFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA896F1388D5840033BCCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA89701388D5840033BCCB /* Cocoa.framework */,
+				CEDA89721388D5840033BCCB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDA89721388D5840033BCCB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA89731388D5840033BCCB /* AppKit.framework */,
+				CEDA89741388D5840033BCCB /* CoreData.framework */,
+				CEDA89751388D5840033BCCB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CEDA89761388D5840033BCCB /* DailyBoothFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA89771388D5840033BCCB /* Supporting Files */,
+			);
+			path = DailyBoothFramework;
+			sourceTree = "<group>";
+		};
+		CEDA89771388D5840033BCCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA89781388D5840033BCCB /* DailyBoothFramework-Info.plist */,
+				CEDA89791388D5840033BCCB /* InfoPlist.strings */,
+				CEDA897C1388D5840033BCCB /* DailyBoothFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEDA896A1388D5840033BCCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEDA896C1388D5840033BCCB /* DailyBoothFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA897F1388D5840033BCCB /* Build configuration list for PBXNativeTarget "DailyBoothFramework" */;
+			buildPhases = (
+				CEDA89681388D5840033BCCB /* Sources */,
+				CEDA89691388D5840033BCCB /* Frameworks */,
+				CEDA896A1388D5840033BCCB /* Headers */,
+				CEDA896B1388D5840033BCCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyBoothFramework;
+			productName = DailyBoothFramework;
+			productReference = CEDA896D1388D5840033BCCB /* DailyBoothFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA89631388D5840033BCCB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CEDA89661388D5840033BCCB /* Build configuration list for PBXProject "DailyBoothFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDA89611388D5840033BCCB;
+			productRefGroup = CEDA896E1388D5840033BCCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA896C1388D5840033BCCB /* DailyBoothFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA896B1388D5840033BCCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA897B1388D5840033BCCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA89681388D5840033BCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDA89791388D5840033BCCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA897A1388D5840033BCCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA897D1388D5840033BCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEDA897E1388D5840033BCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEDA89801388D5840033BCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailyBoothFramework/DailyBoothFramework-Prefix.pch";
+				INFOPLIST_FILE = "DailyBoothFramework/DailyBoothFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		CEDA89811388D5840033BCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailyBoothFramework/DailyBoothFramework-Prefix.pch";
+				INFOPLIST_FILE = "DailyBoothFramework/DailyBoothFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA89661388D5840033BCCB /* Build configuration list for PBXProject "DailyBoothFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA897D1388D5840033BCCB /* Debug */,
+				CEDA897E1388D5840033BCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA897F1388D5840033BCCB /* Build configuration list for PBXNativeTarget "DailyBoothFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA89801388D5840033BCCB /* Debug */,
+				CEDA89811388D5840033BCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA89631388D5840033BCCB /* Project object */;
+}
