@@ -1,12 +1,4 @@
-//
-//  HeaderParser.h
-//  CloudieApp
-//
-//  Created by Sam Gray on 2/18/11.
-//  Copyright 2011 Sam Gray. All rights reserved.
-//
-
-/*Copyright (c) 2011 Samuel Lee Stewart Gray
+ Copyright (c) 2011 Samuel Lee Stewart Gray
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -24,21 +16,4 @@
  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- THE SOFTWARE. */
-
-#import <Cocoa/Cocoa.h>
-
-
-@interface HeaderParser : NSObject 
-{
-	NSMutableDictionary *headerDictionary;
-}
-
-@property(readonly)NSMutableDictionary *headerDictionary;
-
--(void)startNewParseSet;
--(void)parseHeaderString:(NSString *)parseString;
--(NSString *)parseTitleString:(NSString *)headerString;
--(NSString *)parseDataString:(NSString *)headerString;
-
-@end
+ THE SOFTWARE.
